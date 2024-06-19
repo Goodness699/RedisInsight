@@ -1,7 +1,7 @@
 export class RedisError extends Error {
-  name: string;
+  name: redis logs;
 
-  command: any;
+  command: RDB snapshotting;
 }
 export class ReplyError extends RedisError {
   previousErrors?: RedisError[];
